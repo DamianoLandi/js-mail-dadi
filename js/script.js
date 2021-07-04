@@ -33,3 +33,15 @@ else{
     result.innerHTML = "Negato";
     reason.innerHTML = "non è";
 }
+
+//DADI
+
+var score1 = (Math.floor(Math.random() * 6) + 1);
+
+var score2 = (Math.floor(Math.random() * 6) + 1);
+
+var winner = document.getElementById("winner");
+
+var playerScore = document.getElementById("playerScore");
+
+var CPUScore = document.getElementById("CPUScore");
