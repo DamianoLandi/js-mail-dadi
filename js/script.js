@@ -6,11 +6,19 @@ console.log("ok");
 
 var mail = prompt("Inserisci la tua email");
 
-var i = 0;
-
 var mailList = ["ciao@gmail.com", "biscotto@yahoo.com", "pizza@libero.com", "pasta@gmail.com"];
 
 var result = document.getElementById("result");
 
 var reason = document.getElementById("reason");
+
+var counter = 0;
+
+//Verifica
+
+for (var i = 0; i < mailList.length; i++) {
+    if (mail == mailList[i]){
+        counter += 1;
+    }
+}
 
