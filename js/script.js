@@ -22,3 +22,14 @@ for (var i = 0; i < mailList.length; i++) {
     }
 }
 
+//Stampa in HTML
+
+if (counter > 0) {
+    result.innerHTML = "Confermato";
+    reason.innerHTML = "è";
+}
+
+else{
+    result.innerHTML = "Negato";
+    reason.innerHTML = "non è";
+}
